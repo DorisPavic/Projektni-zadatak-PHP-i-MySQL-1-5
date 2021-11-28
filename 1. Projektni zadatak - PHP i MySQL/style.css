@@ -1,0 +1,444 @@
+body,
+html {
+	font-family     : "Helvetica 65 Medium", sans-serif;
+	margin          : 0;
+	font-size       : 15px;
+	color           : white;
+	background-color: cadetblue;
+	text-align      : center;
+}
+
+header {
+	display: block;
+	width  : 100%;
+}
+
+footer {
+	text-align      : center;
+	background-color: #434346;
+	padding-bottom  : 0px;
+	margin-bottom   : 0px;
+}
+
+footer p {
+	text-align: center;
+}
+
+
+h1 {
+	font-family: "Helvetica 65 Medium", sans-serif;
+	font-size  : 30px;
+	text-align : left;
+	margin-left: 40px;
+	color      : rgb(28, 28, 95);
+}
+
+h2 {
+	font-family: "Helvetica 65 Medium", sans-serif;
+	font-size  : 20px;
+	text-align : left;
+	margin-left: 40px;
+	color      :  rgb(40, 41, 66);
+}
+
+p {
+	font-family  : "Helvetica 65 Medium", sans-serif;
+	font-size    : 15px;
+	text-align   : left;
+	margin-left  : 40px;
+	margin-right  : 40px;
+	margin-bottom: 0px;
+	margin-top   : 0px;
+	color        : #fdfdff;
+
+}
+
+ul {
+	display: flex;
+	justify-content: right;
+	list-style-type : none;
+	margin          : 0px;
+	padding         : 0px;
+	overflow        : hidden;
+	background-color: #434346;
+	width           : 100%;
+}
+
+
+li {
+	float: right;
+}
+
+li a {
+	display        : block;
+	color          : white;
+	font-family    : "Helvetica 65 Medium", sans-serif;
+	font-weight    : 500;
+	font-size      : 13px;
+	text-decoration: none;
+	padding        : 15px 15px;
+	color          : #FFFFFF;
+	cursor         : pointer;
+	text-align     : center;
+}
+
+li a:hover {
+	background-color: #222;
+}
+
+
+
+
+
+
+.welcome {
+	font-family        : "Helvetica 65 Medium", sans-serif;
+	font-size          : 50px;
+	font-weight        : 700;
+	color              : rgb(199, 98, 4);
+	background-image   : url("slike/Naslovna.jpg");
+	background-position: center;
+	background-repeat  : no-repeat;
+	background-size    : cover;
+	height             : 622px;
+	position           : relative;
+	clear              : both;
+	width              : 100%;
+	display            : inline-block;
+}
+.welcome h1 {
+	font-family        : "Helvetica 65 Medium", sans-serif;
+	font-size          : 60px;
+	font-weight        : 700;
+	color              : rgb(199, 98, 4);
+	position: relative;
+	margin-top:530px;
+	text-shadow: 2px 2px 5px rgb(196, 58, 4);
+}
+
+#loviste figure {
+	padding: 0.5em;
+	float  : left;
+	width  : 20%;
+	border : 2px solid black;
+}
+
+#loviste figcaption {
+	font-size: 90%;
+}
+
+img {
+	width : 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+.about{
+	display: flex;
+
+}
+
+.about h2{
+	color: rgb(40, 41, 66);
+
+}
+
+video {
+	margin: 1em 1em 1em 1em;
+	display: flex;
+	border: 1px solid #222;
+}
+
+
+
+
+
+
+
+.naslovi {
+	background-color: #0d59a0;
+	margin          : 100px, 0px, 100px, 0px;
+	font-family     : "Helvetica 65 Medium", sans-serif;
+	font-size       : 50px;
+	font-weight     : 700;
+	text-align      : center;
+	color           : white;
+	padding         : 200px;
+}
+
+.newsNaslovi {
+	font-family        : "Helvetica 65 Medium", sans-serif;
+	font-size          : 50px;
+	font-weight        : 700px;
+	text-align         : center;
+	color              : red;
+	background-image   : url('news/corona1.jpeg');
+	background-position: center;
+	background-repeat  : no-repeat;
+	background-size    : cover;
+	height             : 600px;
+	position           : relative;
+	clear              : both;
+	width              : 100%;
+	display            : inline-block;
+}
+
+
+.news {
+	padding: 20px;
+	display: grid; 
+    grid-template-columns: 0.5fr 1.5fr; 
+    grid-gap: 20px; 
+}
+
+.grid-child-element { 
+	margin: 10px;
+}
+
+
+	@media screen and (max-width: 900px) {
+		
+	}
+
+	
+	figure {
+		width : 90%;
+		margin: 2em;
+	}
+
+	.news img {
+		width  : 100%;
+		padding: 0.5em;
+		margin : 0 1em 0.5em 0.5em;
+	}
+
+	.news time {
+		margin: 0 0 0 1em;
+		color: #292947;
+	}
+
+		
+#news_gallery{	
+	display: flex;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	width  : 100%;
+}
+
+#news_gallery figure {
+	padding: 0.5em;
+	width  : 40%;
+}
+
+#news_gallery figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+
+
+
+	.news1 {
+		border: 1px solid rgb(58, 3, 3);
+		width:50%;
+		align-self: center;
+		margin: auto;
+		padding: 10px;
+	}
+
+	.news1 p{
+		vertical-align: middle;
+		text-align: left;
+		margin:30px;
+	}
+
+
+	.news1 img{
+		width: 80%;
+		margin:20px;
+		
+	}
+
+	.news1 time {
+		margin: 0 0 0 1em;
+		color: #292947;
+	}
+
+	p time{		
+		margin: 0 0 0 1em;
+		color: #292947;
+	}
+
+
+	.newsMost {
+		font-family        : "Helvetica 65 Medium", sans-serif;
+		font-size          : 50px;
+		font-weight        : 700px;
+		text-align         : center;
+		background-image   : url('news-gallery/p.jpg');
+		background-position: center;
+		background-repeat  : no-repeat;
+		background-size    : cover;
+		height             : 600px;
+		position           : relative;
+		clear              : both;
+		width              : 100%;
+		display            : inline-block;
+	}
+	
+	
+	.newsFire {
+		font-family        : "Helvetica 65 Medium", sans-serif;
+		font-size          : 50px;
+		font-weight        : 700px;
+		text-align         : center;
+		background-image   : url('news-gallery/f.jpg');
+		background-position: center;
+		background-repeat  : no-repeat;
+		background-size    : cover;
+		height             : 600px;
+		position           : relative;
+		clear              : both;
+		width              : 100%;
+		display            : inline-block;
+	}
+
+	.newsKono {
+		font-family        : "Helvetica 65 Medium", sans-serif;
+		font-size          : 50px;
+		font-weight        : 700px;
+		text-align         : center;
+		background-image   : url('news-gallery/k.jpg');
+		background-position: center;
+		background-repeat  : no-repeat;
+		background-size    : cover;
+		height             : 600px;
+		position           : relative;
+		clear              : both;
+		width              : 100%;
+		display            : inline-block;
+	}
+
+	.Kono{
+		display: flex;
+		margin:auto;
+		width:70%;
+		}
+
+		#news_kono_gallery{	
+			display: flex;
+			text-align: center;
+			align-content: center;
+			align-items: center;
+			width  : 85%;
+			margin:auto;
+		}
+		.Kono video {
+			margin: 1em 1em 1em 1em;
+			display: flex;
+			border: 1px solid #222;
+			width:73%;
+		}
+
+
+
+
+.contactHeader {
+	font-family        : "Helvetica 65 Medium", sans-serif;
+	font-size          : 50px;
+	font-weight        : 700px;
+	text-align         : center;
+	color              : red;
+	background-image   : url('slike/contact.jpg');
+	background-position: center;
+	background-repeat  : no-repeat;
+	background-size    : cover;
+	height             : 500px;
+	position           : relative;
+	clear              : both;
+	width              : 100%;
+	display            : inline-block;
+}
+
+#contact{
+	display:flex;
+	padding: 30px;
+
+}
+
+#contactForm {
+	padding-right: 100px;
+	padding-left: 50px;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: content-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 95%;
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #434346;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 100%;
+	align-content: center;
+}
+
+input[type=submit]:hover {
+    background-color: #434346;
+}
+
+
+
+
+
+
+
+#gallery {
+	display: flex;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	width  : 100%;
+	color:rgb(28, 28, 95);
+	font-family     : "Helvetica 65 Medium", sans-serif;
+}
+
+.gallery{
+	text-align: center;
+	font-family     : "Helvetica 65 Medium", sans-serif;
+	font-size       : 25px;
+	font-weight     : 600;
+	color: black;
+	margin: 15px;
+}
+
+#gallery figure {
+	padding: 0.5em;
+	width  : 20%;
+	border: 1px solid #ccc;
+}
+
+#gallery figcaption {
+	font-size: 90%;
+}
+
+#gallery figure:hover {
+  border: 1px solid rgb(7, 2, 88);
+}
