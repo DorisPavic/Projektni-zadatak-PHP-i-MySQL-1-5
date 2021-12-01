@@ -50,7 +50,7 @@ if ($_POST['action'] == FALSE) {
 				<div class="form-group">
 				  <label class="control-label col-sm-2" for="title">Country:</label>
 				  <div class="col-sm-10">
-					<input type="text" class="form-control" id="country" placeholder="Write name of the director..." name="country">
+					<input type="text" class="form-control" id="country" placeholder="Write name of the country..." name="country">
 				  </div>
 				</div>
 				<div class="form-group">
